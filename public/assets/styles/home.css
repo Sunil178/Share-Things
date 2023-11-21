@@ -1,0 +1,17 @@
+body {
+    /* --background-color: #18181B; */
+    --background-color: #5da6ff;
+    --card-border-color: rgba(255, 255, 255, 0.1);
+    --card-box-shadow-1: rgba(0, 0, 0, 0.05);
+    --card-box-shadow-1-y: 3px;
+    --card-box-shadow-1-blur: 6px;
+    --card-box-shadow-2: rgba(0, 0, 0, 0.1);
+    --card-box-shadow-2-y: 8px;
+    --card-box-shadow-2-blur: 15px;
+    font-family: "Inter", Arial;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
