@@ -71,3 +71,13 @@ function bladeErrorMessage() {
 function bladeSuccessMessage() {
     bladeMessage('success', 'success');
 }
+
+/**
+ * Get the path to the public folder.
+ *
+ * @param  string  $path
+ * @return string
+ */
+function public_path($path=null) {
+    return rtrim(app()->basePath('public/'.$path), '/');
+}
